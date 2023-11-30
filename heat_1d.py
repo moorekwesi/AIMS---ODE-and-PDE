@@ -1,32 +1,30 @@
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('seaborn-poster')
-%matplotlib inline
 
-# step size
-h = 0.1
-# define grid
-x = np.arange(0, 2*np.pi, h) 
-# compute function
-y = np.cos(x) 
+# Parameters
+alpha = 0.01  # Thermal diffusivity
+dx = 0.1      # Spatial step size
+dt = 0.01     # Time step size
+nx = 100      # Number of grid points
+nt = 200      # Number of time steps
 
-# compute vector of forward differences
-forward_diff = np.diff(y)/h 
-# compute corresponding grid
-x_diff = x[:-1:] 
-# compute exact solution
-exact_solution = -np.sin(x_diff) 
+# Initialize temperature grid
+u = np.zeros(nx)
 
-# Plot solution
-plt.figure(figsize = (12, 8))
-plt.plot(x_diff, forward_diff, '--', \
-         label = 'Finite difference approximation')
-plt.plot(x_diff, exact_solution, \
-         label = 'Exact solution')
-plt.legend()
-plt.show()
+# Initial condition (e.g., a spike in the middle)
+u[nx//2] = 50
 
-# Compute max error between 
-# numerical derivative and exact solution
-max_error = max(abs(exact_solution - forward_diff))
-print(max_error)
+# Finite difference method
+for t in range(nt):
+    u_new = u.copy()
+    for i in range(1, nx-1):
+        u_new[i] = u[i] + alpha * dt * (u[i+1] - 2*u[i] + u[i-1]) / dx**2
+    u = u_new
+
+    # Visualization at certain steps
+    if t % 40 == 0:
+        plt.figure(figsize = (3, 3))
+        plt.plot(u)
+        plt.title(f'Time step {t}')
+        plt.ylim(0, 100)
+        plt.show()
