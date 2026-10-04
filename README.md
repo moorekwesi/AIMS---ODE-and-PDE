@@ -74,8 +74,8 @@ You need Python 3 with NumPy, SciPy, SymPy and Matplotlib.
 - **With pip:**
 
 ```bash
-git clone https://github.com/moorekwesi/AIMS---ODE-and-PDE.git
-cd AIMS---ODE-and-PDE
+git clone https://github.com/moorekwesi/applied-ode-pde-with-python.git
+cd applied-ode-pde-with-python
 pip install -r requirements.txt
 ```
 
@@ -107,7 +107,7 @@ python run_all.py ch10     # only Chapter 10
 
 > S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 1st ed.,
 > Department of Mathematics, University of Cape Coast, Ghana, 2026.
-> Available at https://github.com/moorekwesi/AIMS---ODE-and-PDE
+> Available at https://github.com/moorekwesi/applied-ode-pde-with-python
 
 A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
@@ -128,4 +128,4 @@ credit to the author.
 Website: [https://moorestephen.info/](https://moorestephen.info/)
 
 Corrections and suggestions are welcome: please open an
-[issue](https://github.com/moorekwesi/AIMS---ODE-and-PDE/issues).
+[issue](https://github.com/moorekwesi/applied-ode-pde-with-python/issues).
