@@ -1,0 +1,11 @@
+shock tests: position of the shock at time T
+scheme                     uL=1,uR=0,T=2   uL=2,uR=1,T=1
+exact (Rankine-Hugoniot)     1.0000          1.5000
+upwind                       1.0001          1.4997
+Lax-Friedrichs               0.9891          1.4990
+Godunov                      1.0001          1.4997
+upwind (non-conservative)    0.0000          1.3656
+transonic rarefaction uL=-1, uR=1, T=0.8: max error
+  Roe             0.988
+  Lax-Friedrichs  0.111
+  Godunov         0.055

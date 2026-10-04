@@ -1,0 +1,7 @@
+   t     back of queue (Godunov)   exact
+ 0.505        -0.210               -0.202
+ 1.000        -0.410               -0.400
+ 1.667        -0.670               -0.667
+ 2.000        -0.780               -0.780
+ 3.000        -0.980               -0.986
+cars on the road at t = 0 and t = 3.0: 1.200, 1.920  (inflow adds 0.24 per unit time: 1.920)

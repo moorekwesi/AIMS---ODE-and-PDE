@@ -1,0 +1,5 @@
+residence time V/Q        = 50.0 days
+equilibrium c*            = 13.3333 mg/L
+c(T_stop)  exact / solver = 12.669506 / 12.669506
+c falls below 1 mg/L at t = 184.64 days
+solver value there        = 1.000000

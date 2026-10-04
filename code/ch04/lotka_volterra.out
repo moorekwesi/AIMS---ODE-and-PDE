@@ -1,0 +1,5 @@
+drift |V(T) - V(0)| of the conserved quantity on [0, 30]:
+  Euler, h = 0.01           : 2.523e-01
+  RK45, rtol = 1e-03 (  43 steps): 2.477e-02
+  RK45, rtol = 1e-09 ( 544 steps): 2.719e-09
+equilibrium (c/d, a/b) = (20.0, 10.0)

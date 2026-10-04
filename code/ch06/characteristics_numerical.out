@@ -1,0 +1,6 @@
+exam problem, T = 0.5: max error = 8.39e-10
+T = 0: peak 1.0000 at x = 1.00, int u dx = 0.8841, int u/v dx = 0.8842
+T = 2: peak 0.9048 at x = 3.00, int u dx = 0.7850, int u/v dx = 0.8017
+T = 4: peak 0.6761 at x = 4.54, int u dx = 0.3091, int u/v dx = 0.5891
+T = 6: peak 0.2504 at x = 5.42, int u dx = 0.1153, int u/v dx = 0.2260
+T = 8: peak 0.1853 at x = 7.02, int u dx = 0.1610, int u/v dx = 0.1643

@@ -1,0 +1,5 @@
+SymPy   : Eq(y(t), 1/2 + 3*exp(-t**2)/2)
+check   : (True, 0)
+solve_ivp rtol = 1e-03:   80 f-evaluations, max error 2.71e-04
+solve_ivp rtol = 1e-06:  170 f-evaluations, max error 1.26e-05
+solve_ivp rtol = 1e-10:  830 f-evaluations, max error 3.12e-10

@@ -1,0 +1,5 @@
+(a) W = 1   y_p = x*sin(x) + log(cos(x))*cos(x)
+    residual: 0
+(b) W = exp(2*x)   y_p = x*(log(x) - 1)*exp(x)
+(c) W = x**2   y_p = x**3/2
+dsolve (a): (C1 + x)*sin(x) + (C2 + log(cos(x)))*cos(x)

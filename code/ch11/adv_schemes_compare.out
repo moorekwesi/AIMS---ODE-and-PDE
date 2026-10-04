@@ -1,0 +1,10 @@
+N = 200, nu = 0.8, one period (250 steps)
+data           scheme           L1 error     min U     max U
+square pulse   upwind           5.037e-02    0.0000    0.9980
+square pulse   Lax-Friedrichs   7.544e-02    0.0000    0.9656
+square pulse   Lax-Wendroff     3.468e-02   -0.1945    1.1945
+square pulse   Beam-Warming     4.023e-02   -0.2540    1.2529
+Gaussian       upwind           2.501e-02    0.0000    0.7453
+Gaussian       Lax-Friedrichs   4.326e-02    0.0000    0.5974
+Gaussian       Lax-Wendroff     4.451e-03   -0.0008    0.9882
+Gaussian       Beam-Warming     3.012e-03   -0.0000    0.9950

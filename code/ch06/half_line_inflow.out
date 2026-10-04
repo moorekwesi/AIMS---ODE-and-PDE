@@ -1,0 +1,4 @@
+case             u(ct-,t)   u(ct+,t)   slope left  slope right
+C1-compatible     1.00000    1.00000      0.0000      0.0000
+kink              1.00000    1.00000      0.0000     -1.0000
+jump              0.50000    1.00000      0.0000     -1.0000

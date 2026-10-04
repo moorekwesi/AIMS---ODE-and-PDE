@@ -1,0 +1,6 @@
+quad      : 0.886226925453  (exact 0.886226925453, error estimate 7.1e-09)
+solve_ivp : theta(5) = -0.02395128,  status = 0
+            period from events = 6.69997566
+solve_bvp : success = True, max error = 1.84e-06
+brentq    : root of x = cos x is 0.739085133215
+fsolve    : [1.61901306 1.17422174]

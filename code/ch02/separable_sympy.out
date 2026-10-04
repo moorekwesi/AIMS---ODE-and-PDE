@@ -1,0 +1,6 @@
+(a) implicit solution : Eq(2*Y**3 + 3*Y**2 - 5, 3*x**2)
+    dy/dx from G=0     : x/(Y*(Y + 1))
+    ODE right-hand side: x/(Y*(Y + 1))
+(b) dsolve            : Eq(y(x), sqrt(x**3 + x + 1))
+    checkodesol       : (True, 0)
+    interval of existence: (-0.682328, oo)

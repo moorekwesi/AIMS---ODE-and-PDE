@@ -1,0 +1,12 @@
+k = 0.11552 1/h,  q = exp(-kT) = 0.39685
+ n   peak (mg/L)  trough (mg/L)
+ 1      10.0000       3.9685
+ 2      13.9685       5.5434
+ 3      15.5434       6.1684
+ 4      16.1684       6.4164
+ 5      16.4164       6.5149
+ 6      16.5149       6.5539
+ 7      16.5539       6.5694
+ 8      16.5694       6.5756
+steady state: peak 16.5796, trough 6.5796 mg/L
+loading dose for immediate steady state: 1.658 x normal dose

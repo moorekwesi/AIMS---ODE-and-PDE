@@ -1,0 +1,12 @@
+y' = -2 t y + t          order 1
+     separable, 1st_exact, 1st_linear, Bernoulli
+y' = y (1 - y)           order 1
+     separable, 1st_exact, Bernoulli, 1st_rational_riccati
+y' = (t + y)^2           order 1
+     1st_rational_riccati, 1st_power_series, lie_group
+y'' + 4 y' + 13 y = 0    order 2
+     nth_linear_constant_coeff_homogeneous, 2nd_power_series_ordinary
+t^2 y'' + t y' - y = 0   order 2
+     nth_linear_euler_eq_homogeneous, 2nd_linear_bessel, 2nd_power_series_regular
+y'' + sin(y) = 0         order 2
+     2nd_nonlinear_autonomous_conserved

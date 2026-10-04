@@ -1,0 +1,9 @@
+max over theta of |g|  (stable iff <= 1)
+         scheme r=0.25  r=0.5   r=0.6   r=2.0  
+           FTCS   1.000   1.000   1.400   7.000
+           BTCS   1.000   1.000   1.000   1.000
+ Crank-Nicolson   1.000   1.000   1.000   1.000
+         scheme nu=0.5  nu=0.8  nu=1.0  nu=1.2 
+         upwind   1.000   1.000   1.000   1.400
+ Lax-Friedrichs   1.000   1.000   1.000   1.200
+   Lax-Wendroff   1.000   1.000   1.000   1.880

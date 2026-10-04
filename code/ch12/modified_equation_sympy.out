@@ -1,0 +1,12 @@
+upwind:  v_t + c v_x = a2 v_xx + a3 v_xxx + a4 v_xxxx + ...
+    a2 = -c*h*(nu - 1)/2
+    a3 = -c*h**2*(nu - 1)*(2*nu - 1)/6
+    a4 = -c*h**3*(nu - 1)*(6*nu**2 - 6*nu + 1)/24
+Lax-Friedrichs:  v_t + c v_x = a2 v_xx + a3 v_xxx + a4 v_xxxx + ...
+    a2 = -c*h*(nu - 1)*(nu + 1)/(2*nu)
+    a3 = -c*h**2*(nu - 1)*(nu + 1)/3
+    a4 = -c*h**3*(nu - 1)*(nu + 1)*(3*nu**2 - 1)/(12*nu)
+Lax-Wendroff:  v_t + c v_x = a2 v_xx + a3 v_xxx + a4 v_xxxx + ...
+    a2 = 0
+    a3 = c*h**2*(nu - 1)*(nu + 1)/6
+    a4 = c*h**3*nu*(nu - 1)*(nu + 1)/8

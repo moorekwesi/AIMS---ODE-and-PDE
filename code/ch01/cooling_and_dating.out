@@ -1,0 +1,13 @@
+cooling constant k        = 0.05754 per minute
+time to cool to 60 C      = 12.05 minutes
+   T( 0) =  90.00 C
+   T( 5) =  75.00 C
+   T(10) =  63.75 C
+   T(20) =  48.98 C
+   T(30) =  40.68 C
+
+decay constant of C-14    = 1.2097e-04 per year
+     90% of C-14 left  ->  age =      871 years
+     50% of C-14 left  ->  age =     5730 years
+     30% of C-14 left  ->  age =     9953 years
+     10% of C-14 left  ->  age =    19035 years

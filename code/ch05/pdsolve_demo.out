@@ -1,0 +1,6 @@
+(a) Eq(u(x, y), F(3*x - 2*y))  check: (True, 0)
+(b) F(x - y)*exp(-x/2 - y/2) + exp(x + 2*y)/4  check: (True, 0)
+(c) Eq(u(x, t), F(t - atan(x)))
+(d) F(s) = cos(s)**2   u(x,t) = (x*sin(t) + cos(t))**2/(x**2 + 1)
+    residual: 0   u(x,0) = 1/(x**2 + 1)
+(e) heat equation: NotImplementedError

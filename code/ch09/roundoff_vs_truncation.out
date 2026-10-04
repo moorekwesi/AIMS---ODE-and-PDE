@@ -1,0 +1,12 @@
+machine epsilon      = 2.220e-16
+forward: h_opt ~ 2.98e-08,  best observed h = 1.00e-08,  min error = 6.60e-09
+central: h_opt ~ 8.73e-06,  best observed h = 5.01e-06,  min error = 3.61e-12
+       h  forward err  central err
+   1e-01    1.406e-01    4.533e-03
+   1e-03    1.360e-03    4.530e-07
+   1e-05    1.359e-05    5.859e-11
+   1e-07    1.399e-07    5.859e-11
+   1e-09    2.154e-07    6.603e-09
+   1e-11    3.263e-05    1.043e-05
+   1e-13    4.559e-04    4.559e-04
+   1e-15    3.903e-01    1.683e-01

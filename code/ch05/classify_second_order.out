@@ -1,0 +1,9 @@
+u_xx - 5u_xy + 6u_yy           B^2-4AC = 1                    hyperbolic
+u_xx + 4u_xy + 4u_yy           B^2-4AC = 0                    parabolic
+u_xx + 2u_xy + 5u_yy           B^2-4AC = -16                  elliptic
+heat u_t = u_xx  (y = t)       B^2-4AC = 0                    parabolic
+Tricomi y u_xx + u_yy          B^2-4AC = -4*y                 depends on (x, y)
+u_xx + 2x u_xy + (1-y^2)u_yy   B^2-4AC = 4*x**2 + 4*y**2 - 4  depends on (x, y)
+Tricomi at (x,y) = (0, 1): elliptic
+Tricomi at (x,y) = (0, 0): parabolic
+Tricomi at (x,y) = (0, -1): hyperbolic

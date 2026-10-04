@@ -1,0 +1,14 @@
+exact: flux q = 46.4516 W/m^2, inner surface T = 30.8065 C
+   N    k_{j+1/2}      flux      T(L)  max error
+  25   arithmetic   46.3396   30.7924   1.98e-02
+  25     harmonic   46.3320   30.7915   2.11e-02
+  25 cell-average   46.4516   30.8065   2.49e-13
+  50   arithmetic   46.4075   30.8009   8.05e-03
+  50     harmonic   46.4037   30.8005   8.74e-03
+  50 cell-average   46.4516   30.8065   4.26e-13
+ 100   arithmetic   46.4415   30.8052   1.87e-03
+ 100     harmonic   46.4396   30.8050   2.22e-03
+ 100 cell-average   46.4516   30.8065   6.18e-13
+ 200   arithmetic   46.4586   30.8073   1.30e-03
+ 200     harmonic   46.4576   30.8072   1.12e-03
+ 200 cell-average   46.4516   30.8065   2.66e-12

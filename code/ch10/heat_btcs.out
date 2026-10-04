@@ -1,0 +1,7 @@
+BTCS with N = 1000, 200 steps, r = 500
+  method                       ms per step   diff after 10 steps
+  Thomas (Python loops)            1.464     4.7e-14
+  solve_banded                     0.067     4.7e-14
+  sparse LU, factorised once       0.028     0.0e+00
+  dense np.linalg.solve          186.154     2.5e-16
+max error at T = 0.1: 2.335e-04  (stable although r >> 1/2)

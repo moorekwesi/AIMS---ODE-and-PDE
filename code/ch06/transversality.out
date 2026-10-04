@@ -1,0 +1,8 @@
+u_x + u_y = u,  data on y = 0          J(r) = 1    non-characteristic where J != 0
+u_x + u_y = 0,  data on y = x          J(r) = 0    characteristic
+x u_x + y u_y = u, unit circle         J(r) = -1   non-characteristic where J != 0
+y u_x - x u_y = 0, unit circle         J(r) = 0    characteristic
+y u_x - x u_y = 0, x-axis              J(r) = -r   non-characteristic where J != 0
+u_x + 2x u_y = 0, parabola y = x^2     J(r) = 0    characteristic
+u_x + 2x u_y = 0, data on x = 0        J(r) = -1   non-characteristic where J != 0
+residual x u_x + y u_y - u = 0

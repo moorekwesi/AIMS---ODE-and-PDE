@@ -1,0 +1,12 @@
+f'  central   offsets [-1, 0, 1]
+    weights [-1/2, 0, 1/2],  order 2,  error ~ f3*h**2/6
+f'  one-sided offsets [0, 1, 2]
+    weights [-3/2, 2, -1/2],  order 2,  error ~ -f3*h**2/3
+f'' central   offsets [-1, 0, 1]
+    weights [1, -2, 1],  order 2,  error ~ f4*h**2/12
+f'' five-pt   offsets [-2, -1, 0, 1, 2]
+    weights [-1/12, 4/3, -5/2, 4/3, -1/12],  order 4,  error ~ -f6*h**4/90
+f'' one-sided offsets [0, 1, 2, 3]
+    weights [2, -5, 4, -1],  order 2,  error ~ -11*f4*h**2/12
+Fornberg, 5 points, 1st derivative: [1/12, -2/3, 0, 2/3, -1/12]
+Fornberg, 5 points, 2nd derivative: [-1/12, 4/3, -5/2, 4/3, -1/12]

@@ -1,0 +1,4 @@
+N = 200, nu = 0.5, t = 1.0
+upwind        max|U - u| = 6.096e-01,  max|U - v_modified| = 1.753e-04
+Lax-Wendroff  max|U - u| = 3.083e-01,  max|U - v_modified| = 5.480e-03
+upwind diffusion coefficient a2 = 1.250e-03

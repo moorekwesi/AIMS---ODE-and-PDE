@@ -1,0 +1,7 @@
+u_t + c u_xx = 0           flux phi = c*Derivative(u(x, t), x)     check: 0
+u_t + u^3 u_x + u_xx = 0   flux phi = u(x, t)**4/4 + Derivative(u(x, t), x) check: 0
+u_t + u u_x = 0            flux phi = u(x, t)**2/2                 check: 0
+Burgers     f'(u)   = w
+Traffic     f'(rho) = -2*rho*v_max/rho_max + v_max
+Shallow water Jacobian = Matrix([[0, 1], [g*h - v**2, 2*v]])
+eigenvalues            = [-sqrt(g)*sqrt(h) + v, sqrt(g)*sqrt(h) + v]

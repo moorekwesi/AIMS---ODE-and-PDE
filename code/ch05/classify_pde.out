@@ -1,0 +1,9 @@
+u_t = x^2 u_xx + 2x u_x    order 2: linear, homogeneous
+-u_xx - u_yy = sin u       order 2: semilinear
+u_t = 5u_xxx + x^2 u + x   order 3: linear, inhomogeneous
+u_t + u u_x = 0            order 1: quasilinear
+u_t + u u_x = nu u_xx      order 2: semilinear
+u_t + 6u u_x + u_xxx = 0   order 3: semilinear
+u_t = (u u_x)_x            order 2: quasilinear
+u_xx u_yy - u_xy^2 = 1     order 2: fully nonlinear
+u_x^2 + u_y^2 = 1          order 1: fully nonlinear

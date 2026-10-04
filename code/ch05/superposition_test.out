@@ -1,0 +1,7 @@
+heat      u_t - u_xx             linear: True
+exam      u_t - x^2u_xx-2xu_x    linear: True
+exam      u_t - 5u_xxx - x^2u    linear: True
+sine-Gordon u_tt-u_xx+sin u      linear: False
+Burgers   u_t + u u_x            linear: False
+eikonal   u_x^2 + u_t^2          linear: False
+affine    u_t - u_xx - x         linear: False

@@ -1,0 +1,6 @@
+beta = 0.500 per day, gamma = 0.200 per day, R0 = 2.5
+peak of the epidemic : day 29.7, 11678 infectious
+theory: peak when S = N/R0 = 20000;  simulated S = 20115
+total ever infected  : 44634 (89.3%)
+final-size relation  : 89.3% infected
+S + I + R at t = 150 : 50000.000000

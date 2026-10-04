@@ -1,0 +1,5 @@
+Ex 1: mu = t**2   y = t**2 + t**(-2)
+Ex 2: mu = exp(t)   y = C*exp(-t) + sin(t)/2 - cos(t)/2
+dsolve 1: Eq(y(t), (t**4 + 1)/t**2)
+dsolve 2: Eq(y(t), C1*exp(-t) + sin(t)/2 - cos(t)/2)
+dsolve 3: Eq(y(t), (C1 + sqrt(pi)*erf(t)/2)*exp(t**2))

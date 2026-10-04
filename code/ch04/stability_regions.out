@@ -1,0 +1,5 @@
+left end of the real stability interval [x*, 0]:
+  Euler       : x* = -2.0000
+  RK2 (Heun)  : x* = -2.0000
+  RK4         : x* = -2.7853
+  backward Euler: stable for every Re(z) <= 0 (A-stable)

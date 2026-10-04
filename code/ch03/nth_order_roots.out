@@ -1,0 +1,18 @@
+y''' - y = 0
+   root -0.500000+0.866025i  multiplicity 1  (spread of computed roots 0.0e+00)
+   root -0.500000-0.866025i  multiplicity 1  (spread of computed roots 0.0e+00)
+   root +1.000000+0.000000i  multiplicity 1  (spread of computed roots 0.0e+00)
+   basis: exp(-0.5 t) cos(0.866025 t), exp(-0.5 t) sin(0.866025 t), exp(1 t)
+y'''' - 2y''' + 5y'' - 8y' + 4y = 0
+   root +0.000000+2.000000i  multiplicity 1  (spread of computed roots 0.0e+00)
+   root +0.000000-2.000000i  multiplicity 1  (spread of computed roots 0.0e+00)
+   root +1.000000+0.000000i  multiplicity 2  (spread of computed roots 2.2e-08)
+   basis: cos(2 t), sin(2 t), exp(1 t), t exp(1 t)
+y'''' + 8y'' + 16y = 0
+   root +0.000000+2.000000i  multiplicity 2  (spread of computed roots 1.3e-08)
+   root +0.000000-2.000000i  multiplicity 2  (spread of computed roots 1.3e-08)
+   basis: cos(2 t), sin(2 t), t cos(2 t), t sin(2 t)
+y^(5) - 3y'''' + 3y''' - y'' = 0
+   root +1.000000+0.000000i  multiplicity 3  (spread of computed roots 6.6e-06)
+   root +0.000000+0.000000i  multiplicity 2  (spread of computed roots 0.0e+00)
+   basis: exp(1 t), t exp(1 t), t^2 exp(1 t), 1, t

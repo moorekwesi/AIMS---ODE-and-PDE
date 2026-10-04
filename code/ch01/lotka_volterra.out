@@ -1,0 +1,4 @@
+equilibrium (c/d, a/b) = (3.00, 2.00)
+prey     : min 1.028, max 6.610
+predator : min 0.808, max 4.013
+variation of V along the orbit = 4.34e-10

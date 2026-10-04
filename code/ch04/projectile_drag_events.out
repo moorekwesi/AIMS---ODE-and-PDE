@@ -1,0 +1,4 @@
+drag constant k = 0.01326 1/m
+with drag : flight time 2.586 s, range 39.30 m, apex 8.25 m at t = 1.231 s
+no drag   : flight time 2.923 s, range 59.87 m
+best launch angle with drag (1 degree grid): 41 deg, range 40.13 m

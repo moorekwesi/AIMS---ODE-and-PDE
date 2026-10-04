@@ -1,0 +1,10 @@
+harmonic amplitudes |b_n|, n = 1..10:
+0.7444 0.3011 0.1338 0.0465 0.0000 0.0207 0.0246 0.0188 0.0092 0.0000
+t = 0.10: max|series(800) - dAlembert| = 3.96e-04
+t = 0.35: max|series(800) - dAlembert| = 3.96e-04
+t = 0.80: max|series(800) - dAlembert| = 3.96e-04
+t = 1.50: max|series(800) - dAlembert| = 3.96e-04
+energy from  10 modes = 2.929478   (exact 3.125000)
+energy from 100 modes = 3.105213   (exact 3.125000)
+energy from 800 modes = 3.122526   (exact 3.125000)
+kora string: L = 0.6 m, f_1 = 220 Hz  =>  c = 2 L f_1 = 264 m/s

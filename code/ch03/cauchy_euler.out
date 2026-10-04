@@ -1,0 +1,9 @@
+1x^2y'' + (-2)xy' + (-4)y = 0: indicial m**2 - 3*m - 4 = 0, roots {4: 1, -1: 1}
+    dsolve: C1/x + C2*x**4
+1x^2y'' + (-3)xy' + (4)y = 0: indicial m**2 - 4*m + 4 = 0, roots {2: 2}
+    dsolve: x**2*(C1 + C2*log(x))
+1x^2y'' + (1)xy' + (4)y = 0: indicial m**2 + 4 = 0, roots {-2*I: 1, 2*I: 1}
+    dsolve: C1*sin(2*log(x)) + C2*cos(2*log(x))
+Legendre n=1: y2 = x*log((x - 1)/(x + 1))/2 + 1
+    residual of x*log((x - 1)/(x + 1))/2 + 1 : 0
+    residual of x*atanh(x) - 1 : 0

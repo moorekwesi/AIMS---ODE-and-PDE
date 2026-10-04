@@ -1,0 +1,4 @@
+same result?      max difference = 0.0e+00
+loop version      :    1.714 s
+vectorised version:    0.008 s
+speed-up          : about 220 times (machine dependent)

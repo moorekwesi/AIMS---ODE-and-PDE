@@ -1,0 +1,5 @@
+beta = 0.40/day, gamma = 0.20/day, R0 = 2.0
+epidemic peak on day 45.4 with I = 15348 infectious
+fraction never infected (ODE, t = 200): 0.2032
+fraction never infected (final size eq.): 0.2032
+total cases ~ 79681; herd immunity threshold 1 - 1/R0 = 0.50

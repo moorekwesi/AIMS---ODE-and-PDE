@@ -1,0 +1,7 @@
+nu = 0.8
+scheme            |g(pi/4)|  |g(pi/2)|   phase ratio at pi/4, pi/2
+upwind             0.9520     0.8246      1.0127  1.0551
+Lax-Friedrichs     0.9055     0.8000      1.0739  1.2500
+Lax-Wendroff       0.9901     0.8773      0.9679  0.9135
+Beam-Warming       0.9984     0.9806      1.0238  1.0866
+max |g| over theta for nu = 1.2: upwind 1.40, Lax-Friedrichs 1.20, Lax-Wendroff 1.88, Beam-Warming 1.00

@@ -1,0 +1,5 @@
+u(pi/2, pi/2)        = 0.15169695
+bottom edge error    = 2.23e-16
+max |5-point Lap u|  = 8.25e-04   (h = 0.0157)
+max u on the square  = 1.000000   attained at y = 0.000
+mean over circle r=0.5 = 0.15169695

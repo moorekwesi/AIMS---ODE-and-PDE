@@ -1,0 +1,10 @@
+--- red light turns green ---
+capacity f(rmax/2) = 0.750 cars/s = 2700 cars/h
+  x0 (m)   starts (s)   crosses light: formula (s)  numerical (s)
+     -20        1.00                    4.00          4.0000
+     -50        2.50                   10.00         10.0000
+    -100        5.00                   20.00         20.0000
+    -200       10.00                   40.00         40.0000
+--- arriving at a stationary queue ---
+f'(rho_l) = 10.0 m/s, f'(rho_r) = -20.0 m/s, shock speed s = -5.0 m/s
+car speed before the shock v(rho_l) = 15.0 m/s

@@ -1,0 +1,6 @@
+N =  100   max error = 1.4960e-02
+N =  200   max error = 7.4007e-03
+N =  400   max error = 3.6799e-03
+N =  800   max error = 1.8349e-03
+observed orders: [1.015 1.008 1.004]
+test passed

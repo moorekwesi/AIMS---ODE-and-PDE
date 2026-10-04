@@ -1,0 +1,7 @@
+residual of y'' - y: 0
+residual of y'' - y: 0
+W(sinh x, 3 sinh x - 2 cosh x) = 2
+W(e^x, e^2x, e^3x) = 2*exp(6*x)
+W(x^2, x^2 ln x) = x**3   Abel: C * x**3
+W(x^2, x|x|) for x > 0: 0
+W(x^2, x|x|) for x < 0: 0

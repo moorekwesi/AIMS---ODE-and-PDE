@@ -1,0 +1,9 @@
+(a) repayment rate   =   17519.39 GHS/year =   1459.95 GHS/month
+    total repaid     =   87596.94 GHS, interest =  37596.94 GHS
+    balance at T     =   0.00e+00 GHS
+    monthly instalment (discrete formula) =   1467.57 GHS
+(b) deposit rate     =    5172.15 GHS/year =    431.01 GHS/month
+    check A(10)      =  100000.00 GHS
+(c) r = 0.05: doubling time 13.863 years (rule of 70: 14.000)
+(c) r = 0.12: doubling time  5.776 years (rule of 70:  5.833)
+(c) r = 0.25: doubling time  2.773 years (rule of 70:  2.800)

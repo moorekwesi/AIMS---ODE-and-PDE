@@ -1,0 +1,9 @@
+FTCS                 tau = h**2*kappa*u_xxxx*(6*r - 1)/12
+BTCS                 tau = -h**2*kappa*u_xxxx*(6*r + 1)/12
+Crank-Nicolson       tau = -dt**2*kappa**3*u_xxxxxx/12 - h**2*kappa*u_xxxx/12
+upwind               tau = c*h*u_xx*(nu - 1)/2
+Lax-Friedrichs       tau = c*h*u_xx*(nu - 1)*(nu + 1)/(2*nu)
+Lax-Wendroff         tau = -c*h**2*u_xxx*(nu - 1)*(nu + 1)/6
+leapfrog (transport) tau = -c*h**2*u_xxx*(nu - 1)*(nu + 1)/6
+leapfrog (wave)      tau = c**2*h**2*u_xxxx*(nu - 1)*(nu + 1)/12
+3u_t+4u_x+u=0 (CTCS) tau = dt**2*u_ttt/2 + 2*h**2*u_xxx/3

@@ -1,0 +1,9 @@
+diff      : k*exp(-x**2)*cos(k*x) - 2*x*exp(-x**2)*sin(k*x)
+integrate : 1/k
+series    : 1 - x**2/2 + x**4/24 - x**6/720 + O(x**7)
+limit     : 1
+dsolve 1  : Eq(y(t), C1*sin(omega*t) + C2*cos(omega*t))
+dsolve 2  : exp(t)/(exp(t) + 1)
+pdsolve   : Eq(u(x, t), F(-t + 2*x))
+lambdify  : [0.       0.655338 0.334512]
+latex     : \int\limits_{0}^{1} e^{- x^{2}} \sin{\left(k x \right)}\, dx

@@ -1,0 +1,22 @@
+H1 Dirichlet mode  residual = 0
+H2 Neumann mode    residual = 0
+H3 shifted BCs     residual = 0
+H4 Gaussian        residual = 0
+H5 erfc step       residual = 0
+H6 manufactured    residual = 0
+H7 polynomial MMS  residual = 0
+S1 steady source   residual = 0
+W1 standing wave   residual = 0
+W2 dAlembert       residual = 0
+W3 struck mode     residual = 0
+W4 damped mode     residual = 0
+T1 transport       residual = 0
+L1 exp*sin         residual = 0
+L2 sinh mode       residual = 0
+P1 sine bump       residual = 0
+P2 polynomial      residual = 0
+
+Boundary checks:
+S1: w(0), w(1) = 0 0   w(1/2) = -5/192
+H2: u_x(0), u_x(1) = [0, 0]
+H6 source F(x,t) = (pi**2*kappa - 1)*exp(-t)*sin(pi*x)

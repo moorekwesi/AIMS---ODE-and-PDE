@@ -1,0 +1,9 @@
+(a) y'' + 3y' + 2y = exp(-3t), y(0) = 1, y'(0) = 0
+   Y(s) = 1/(2*(s + 3)) - 2/(s + 2) + 5/(2*(s + 1))
+   y(t) = (5*exp(2*t) - 4*exp(t) + 1)*exp(-3*t)/2
+(b) y'' + 4y = u(t - pi) (switch on at t = pi), y(0) = y'(0) = 0
+   Y(s) = exp(-pi*s)/(s*(s**2 + 4))
+   y(t) = sin(t)**2*Heaviside(t - pi)/2
+(c) y'' + 2y' + 5y = delta(t - 1) (hammer blow at t = 1), y(0) = 0, y'(0) = 0
+   Y(s) = exp(-s)/(s**2 + 2*s + 5)
+   y(t) = exp(1 - t)*sin(2*t - 2)*Heaviside(t - 1)/2

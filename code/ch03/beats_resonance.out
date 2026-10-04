@@ -1,0 +1,5 @@
+beats: carrier frequency 1.90, beat period 31.4159, max amplitude 2.6316
+gamma = 0.1: peak at w = 1.9987, amplitude 5.0016, gain over static 20.006
+gamma = 0.5: peak at w = 1.9685, amplitude 1.0079, gain over static 4.032
+gamma = 1.0: peak at w = 1.8708, amplitude 0.5164, gain over static 2.066
+gamma = 2.0: peak at w = 1.4142, amplitude 0.2887, gain over static 1.155

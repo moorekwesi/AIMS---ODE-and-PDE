@@ -1,0 +1,12 @@
+transport       residual = 0
+heat            residual = 0
+wave            residual = 0
+Laplace         residual = 0
+Burgers         residual = 0
+KdV             residual = 0
+Schrodinger     residual = 0
+Black-Scholes   residual = 0
+Fisher-KPP      residual = 0
+NS x-momentum   residual = 0
+NS y-momentum   residual = 0
+NS div u        residual = 0

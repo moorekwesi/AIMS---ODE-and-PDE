@@ -1,0 +1,11 @@
+method   rtol    nfev   steps   error at T
+RK23     1e-03    239     63    2.47e-02
+RK23     1e-06   1853    585    3.87e-05
+RK23     1e-09  17414   5774    5.67e-08
+RK45     1e-03    182     21    3.87e-03
+RK45     1e-06    548     70    5.18e-06
+RK45     1e-09   1712    255    4.86e-09
+DOP853   1e-03    182     12    1.32e-03
+DOP853   1e-06    470     28    1.04e-06
+DOP853   1e-09   1046     64    2.92e-08
+RK45 with rtol=1e-8: max error of dense output on 1001 points: 1.35e-07

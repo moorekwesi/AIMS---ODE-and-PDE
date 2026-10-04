@@ -1,0 +1,6 @@
+   tol      accepted  rejected   max error
+   1e-03      131       27     1.29e-03
+   1e-04      388       25     1.74e-04
+   1e-05     1210       16     1.88e-05
+   1e-06     3815        9     1.83e-06
+uniform Heun with the same 388 steps: max error 1.12e-02

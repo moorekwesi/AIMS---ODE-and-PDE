@@ -1,0 +1,9 @@
+1. after editing a slice, u = [0. 7. 7. 7. 0.]
+   after editing a copy,  u = [0. 7. 7. 7. 0.]
+2. u = [0.  0.5 0. ]  (u changed as well!)
+3. integer array after a[0] = 0.9: [0 2 3]
+   a / 2 = [0.  1.  1.5]   but a // 2 = [0 1 1]
+4. np.linspace(0, 1, N)     -> [0.         0.33333333 0.66666667 1.        ]  (h = 1/3, wrong)
+   np.linspace(0, 1, N + 1) -> [0.   0.25 0.5  0.75 1.  ]  (h = 1/4)
+   np.arange(0, 1, 0.25)    -> [0.   0.25 0.5  0.75]  (endpoint missing)
+5. t == 1.0 ? False   t = 0.99999999999999989   np.isclose(t, 1.0) = True

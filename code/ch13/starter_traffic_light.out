@@ -1,0 +1,4 @@
+cells: 400, dt = 0.0090, steps = 334
+queue at t = 1 (rho > 0.9) occupies x in [-0.295, 0]
+cars that crossed the light by t = 3.0: 0.4985 (density units x length)
+min/max density at t = 3.0: 0.0102 / 0.6254

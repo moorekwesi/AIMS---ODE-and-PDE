@@ -1,0 +1,9 @@
+M_y - N_x = 0
+potential F(x, y) = x**3 + x**2*y**2 + y**4
+(M_y - N_x)/N = 1/x  -> mu = x
+exact after mu? True
+logistic: K*P_0*exp(r*t)/(K + P_0*exp(r*t) - P_0)
+homogeneous: [Eq(Y(x), -x*sqrt(C1 + 2*log(x))), Eq(Y(x), x*sqrt(C1 + 2*log(x)))]
+y1 = t solves it? True
+equation for u: Eq(-u(t)**2 + Derivative(u(t), t), 0)
+u = -1/(C1 + t)

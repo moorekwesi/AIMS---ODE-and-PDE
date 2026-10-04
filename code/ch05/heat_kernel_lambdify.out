@@ -1,0 +1,9 @@
+heat kernel      L[u] = 0
+Fourier mode     L[u] = 0
+x^2 + 2 kappa t  L[u] = 0
+x^2 + kappa t    L[u] = -kappa
+t = 0.05: max = 1.2616, integral = 1.000000
+t = 0.20: max = 0.6308, integral = 1.000000
+t = 0.50: max = 0.3989, integral = 1.000000
+t = 1.00: max = 0.2821, integral = 1.000000
+t = 2.00: max = 0.1995, integral = 1.000000

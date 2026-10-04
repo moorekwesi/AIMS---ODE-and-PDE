@@ -1,0 +1,4 @@
+sign changes of F(s) between consecutive trial slopes:
+  bracket [-36, -35]  ->  y'(0) = -35.85854882
+  bracket [-9, -8]  ->  y'(0) = -8.00000000
+max error against 4/(1+x)^2 for the first solution: 1.16e-11

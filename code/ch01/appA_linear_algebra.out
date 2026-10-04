@@ -1,0 +1,7 @@
+solve         max error = 3.291e-04
+solve_banded  max error = 3.291e-04
+spsolve       max error = 3.291e-04
+splu          max error = 3.291e-04
+dense storage 2401 numbers, sparse storage 145 nonzeros
+2D Laplacian: shape (2401, 2401), nonzeros 11809
+expm(pi/2 M) @ [1, 0] = [ 0. -1.]

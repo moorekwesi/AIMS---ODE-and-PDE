@@ -1,0 +1,5 @@
+natural frequency w0 = 2.0000 rad/s, critical damping gamma_c = 4.0000 kg/s
+gamma = 0: undamped, y(2) = -0.653644
+gamma = 1: quasi-frequency mu = 1.9365 rad/s, quasi-period 3.2446 s, log decrement 1.6223
+gamma = 4: critical, y(2) = 0.091578
+gamma = 6: overdamped, y(2) = 0.254062

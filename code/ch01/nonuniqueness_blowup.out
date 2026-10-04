@@ -1,0 +1,5 @@
+solver status : -1
+message       : Required step size is less than spacing between numbers.
+last time     : t = 1.0000000008
+last value    : y = 3.016e+13
+y' = 3 y^(2/3), y(0) = 0: solver returns y(2) = 0.0

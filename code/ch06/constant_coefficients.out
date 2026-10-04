@@ -1,0 +1,7 @@
+general solution: x + G(-2*x - 3*y)*exp(-3*x/13 + 2*y/13) - 3
+residual        : 0
+sympy pdsolve   : x + F(-2*x - 3*y)*exp(-3*x/13 + 2*y/13) - 3
+
+damped transport, general: G(-4*t + 3*x)*exp(-3*t/25 - 4*x/25)
+with u(x,0)=x^2         : (-4*t + 3*x)**2*exp(-t/3)/9
+residual, u(x,0)        : 0 , x**2

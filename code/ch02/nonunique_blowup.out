@@ -1,0 +1,4 @@
+solver status : -1
+message       : Required step size is less than spacing between numbers.
+last time     : 1.0000000008
+last value    : 3.0162e+13
