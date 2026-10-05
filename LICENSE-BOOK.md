@@ -36,7 +36,7 @@ permission is required.
 ## Suggested attribution
 
 > S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 2nd ed.,
-> University of Cape Coast, 2026. https://github.com/moorekwesi/applied-ode-pde-with-python.
+> University of Cape Coast, 2026. https://moorestephen.info/.
 > Licensed under CC BY 4.0.
 
 The Python programs in this repository (`code/` and `run_all.py`) are licensed separately under

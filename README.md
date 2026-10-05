@@ -8,9 +8,9 @@
 **Second Edition (2026)** · Stephen E. Moore · Department of Mathematics, University of Cape Coast, Ghana
 
 🌐 **Author's website:** [https://moorestephen.info/](https://moorestephen.info/)
-📘 **Download the book (PDF):** [Applied_ODE_and_PDE_with_Python.pdf](Applied_ODE_and_PDE_with_Python.pdf)
+📘 **The book (PDF)** is available from the author; please get in touch through the website above.
 
-This repository contains the book and all of its Python programs, organised by chapter. The book
+This repository contains all of the Python programs of the book, organised by chapter. The book
 grew out of the course *Ordinary and Applied Partial Differential Equations with Python* taught at
 the **African Institute for Mathematical Sciences (AIMS), Senegal**, and at the University of Cape
 Coast. It is written for **final-year (final-semester) undergraduates and beginning graduate
