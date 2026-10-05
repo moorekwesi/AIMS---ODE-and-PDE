@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this book or its programs, please cite it as below."
 type: book
 title: "Applied Ordinary and Partial Differential Equations with Python"
-version: "1st edition"
+version: "2nd edition"
 date-released: 2026-10-04
 authors:
   - family-names: Moore

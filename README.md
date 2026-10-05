@@ -5,7 +5,7 @@
 
 <img src="cover.png" alt="Cover of the book" width="260" align="right">
 
-**First Edition (2026)** · Stephen E. Moore · Department of Mathematics, University of Cape Coast, Ghana
+**Second Edition (2026)** · Stephen E. Moore · Department of Mathematics, University of Cape Coast, Ghana
 
 🌐 **Author's website:** [https://moorestephen.info/](https://moorestephen.info/)
 📘 **Download the book (PDF):** [Applied_ODE_and_PDE_with_Python.pdf](Applied_ODE_and_PDE_with_Python.pdf)
@@ -103,9 +103,16 @@ python run_all.py ch10     # only Chapter 10
    these programs.
 5. Try a project from Chapter 13: model, analyse, discretise, implement, verify, report.
 
+## Editions
+
+| Edition | Year |
+|---|---|
+| First edition | 2024 |
+| Second edition | 2026 |
+
 ## Citing the book
 
-> S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 1st ed.,
+> S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 2nd ed.,
 > Department of Mathematics, University of Cape Coast, Ghana, 2026.
 > Available at https://github.com/moorekwesi/applied-ode-pde-with-python
 

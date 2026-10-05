@@ -1,6 +1,6 @@
 # Licence for the book (course material)
 
-**Applied Ordinary and Partial Differential Equations with Python**, First Edition
+**Applied Ordinary and Partial Differential Equations with Python**, Second Edition
 Copyright © 2024, 2026 Stephen E. Moore
 
 The book `Applied_ODE_and_PDE_with_Python.pdf` (text, figures and exercises) is licensed under the
@@ -35,7 +35,7 @@ permission is required.
 
 ## Suggested attribution
 
-> S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 1st ed.,
+> S. E. Moore, *Applied Ordinary and Partial Differential Equations with Python*, 2nd ed.,
 > University of Cape Coast, 2026. https://github.com/moorekwesi/applied-ode-pde-with-python.
 > Licensed under CC BY 4.0.
 
